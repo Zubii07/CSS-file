@@ -1,11 +1,43 @@
-h2{
-    font-family: league spartan;
-    color: green;
-    text-align: center;
-    font-size: 55px;
-    font-weight: 900;
-    letter-spacing: 2px;
-    line-height: 1.5x;
-    text-decoration: rgb(3, 100, 100) double underline;
-    text-transform: uppercase;
+/* unversal selector to sellect all page*/
+*{
+    font-family: 'Franklin Gothic Medium';
+}
+/* Element Selector */
+h1,
+h3{
+color: rgb(229, 157, 63);
+}
+/* myID selector*/
+#login {
+    background-color: white;
+     
+}
+#signup {
+    background-color: red;
+     
+}
+/* Atrribute Selector*/
+
+input[type = "text"] {
+    color: brown;
+}
+
+input[type = "password"] {
+    color: rgb(0, 0, 0);
+}
+input[type]{
+    background-color: rgb(170, 247, 249);
+}
+/*pseudo Elements*/
+/* to change clr of first letter*/
+h1::first-letter{
+    color: red;
+}
+/* to change clr of first line*/
+p::first-line{
+    color: maroon;
+}
+/* to sellect a particular Area of paragraph line*/
+p::selection{
+   background-color: burlywood;
 }
