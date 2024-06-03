@@ -1,0 +1,41 @@
+/* set height and width*/
+div{
+    height: 200px;
+    width: 500px;
+    background-color: beige;
+    /* to set border width,style & color*/
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(36, 61, 61);
+    /* shorthand oder to follow
+       width|style|color
+       border: 5px solid rgb(36, 61, 61);*/
+
+
+       /* to set border slides
+       1) border-left
+       2) border-right
+       3) border-top
+       4) border-bottom*/
+     border-left-color: bisque;
+     border-right-color:blanchedalmond;
+     border-top: 5px solid rgb(212, 176, 247);
+     border-bottom: 5px solid burlywood;
+
+     /* to set border radius*/
+     border-radius: 25px;
+
+     /* to set padding*/
+     padding-top: 15px;
+
+     /* to set margin*/
+     /* for all sides  margin: 50px; */
+     /* for top & bottom | left & right   margin: 10px 10px;*/
+     /* for top |left & right| bottom    margin: 10px 20px 30px;  */
+     /* for top|right|bottom|left *clockwise */ margin: 1px 2px 3px 4px;
+}
+button{
+    margin: 10px;
+    border-radius: 25px;
+    background-color: burlywood;
+}
