@@ -1,0 +1,73 @@
+.box{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(250, 196, 130);
+    /*animation-name: widthAnimate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: 3;
+    animation-direction: alternate; /* normal,reverse,etc...*/
+
+    /* Animation shorthand syntax
+      animation: propertyname duration(2s) timing-function(ie..ease-in)  delay(ie..0s) iteration count(ie..infinite) */
+      animation: colAnimate 3s ease-in 0s 2 normal;
+      
+}
+@keyframes fontAnimation{
+
+    form{
+        font-size: 20px;
+        
+    }
+    to{
+        font-size: 40px;
+       
+    }
+}
+
+/*@keyframes widthAnimate{
+    from{
+        width: 10px;
+        background-color: brown;
+        }
+        to{
+            width: 400px;
+            background-color: darkcyan;
+            border-radius: 15px;
+        }
+}*/
+
+/*@keyframes colorAnimate{
+    from{
+        background-color: brown;
+    }
+    to{
+        background-color: darkcyan;
+    }
+}  */
+
+@keyframes colAnimate{ /* We also discuss Animation Stages*/
+    0%{
+        width: 10px;
+        background-color: brown;
+        }
+        50%{
+            width: 400px;
+            background-color: darkcyan;
+            border-radius: 15px;
+        }
+        100%{
+            background-color: peru;
+        }
+}
+
+
+
+
+
+
+
+/* Also we can Apply  1) Width Animate
+                      2) color Animate
+                      3) font animate
